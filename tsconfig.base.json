@@ -16,6 +16,14 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@org/source"]
+    "customConditions": ["@org/source"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "@/components/*": ["./packages/ui-components/src/components/*"],
+      "@/lib/*": ["./packages/ui-components/src/lib/*"],
+      "@/hooks/*": ["./packages/ui-components/src/hooks/*"],
+      "@/utils": ["./packages/ui-components/src/lib/utils"]
+    }
   }
 }
