@@ -11,7 +11,7 @@
 ```sh
 npx nx g @nx/js:lib packages/pkg1 --publishable --importPath=@my-org/pkg1
 ```
-
+npx nx g @nx/react:storybook-configuration @my-org/ui-components
 ## Run tasks
 
 To build the library use:
