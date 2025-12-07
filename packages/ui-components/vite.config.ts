@@ -1,5 +1,6 @@
 /// <reference types='vitest' />
 import { defineConfig } from 'vite';
+import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import dts from 'vite-plugin-dts';
 import * as path from 'path';
@@ -9,6 +10,7 @@ export default defineConfig(() => ({
   cacheDir: '../../node_modules/.vite/packages/ui-components',
   plugins: [
     react(),
+    tailwindcss(),
     dts({
       entryRoot: 'src',
       tsconfigPath: path.join(__dirname, 'tsconfig.lib.json'),

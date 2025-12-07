@@ -16,6 +16,7 @@
     "@nx/vite": "22.0.0",
     "@nx/web": "22.0.0",
     "@storybook/react-vite": "9.1.16",
+    "@storybook/addon-themes": "9.1.16",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
@@ -52,8 +53,10 @@
     "packages/*"
   ],
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.17",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.1.17"
   },
   "nx": {
     "includedScripts": [],
