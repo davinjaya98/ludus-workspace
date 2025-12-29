@@ -13,6 +13,11 @@
     "noImplicitOverride": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
+    "baseUrl": "./",
+    "paths": {
+      "@org/ui": ["packages/ui/src/index.ts"],
+      "@org/ui/*": ["packages/ui/*"]
+    },
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
