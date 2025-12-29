@@ -13,9 +13,13 @@
     "noImplicitOverride": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
+    "paths": {
+      "@/ludus-app/*": ["./packages/ludus-app/src/*"],
+      "@/shared/*": ["./packages/shared/*"],
+    },
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@org/source"]
+    "customConditions": ["@org/source"],
   }
 }
